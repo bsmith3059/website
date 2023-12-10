@@ -24,7 +24,7 @@ const nextConfig = withBundleAnalyzer({
       'img.youtube.com',
     ],
   },
-  experimental: {
+  // experimental: {
     serverActions: true,
   },
   webpack: config => {
